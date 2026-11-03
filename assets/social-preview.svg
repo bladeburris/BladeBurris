@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#397ea2" opacity=".55"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#0f141b"/><stop offset="1" stop-color="#0f141b" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0f141b"/>
+  <rect x="650" width="550" height="630" fill="url(#dots)"/>
+  <rect x="500" width="320" height="630" fill="url(#fade)"/>
+  <rect x="72" y="72" width="70" height="6" rx="3" fill="#6ed7cc"/>
+  <text x="72" y="150" fill="#6ed7cc" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">PORTFOLIO</text>
+  <text x="68" y="315" fill="#eff4f8" font-family="Georgia,serif" font-size="92" font-weight="700" letter-spacing="-4">Blade Burris</text>
+  <circle cx="626" cy="296" r="9" fill="#6ed7cc"/>
+  <text x="74" y="385" fill="#aab6c3" font-family="Arial,sans-serif" font-size="29">IT service design · UX · Human-centered systems</text>
+  <line x1="74" y1="500" x2="1126" y2="500" stroke="#2c3846" stroke-width="2"/>
+  <text x="74" y="550" fill="#eff4f8" font-family="Arial,sans-serif" font-size="20" font-weight="600">BETTERWITHBLADE.COM</text>
+  <text x="1060" y="558" fill="#6ed7cc" font-family="Georgia,serif" font-size="55" font-weight="700">BB.</text>
+</svg>
