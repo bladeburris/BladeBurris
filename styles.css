@@ -70,9 +70,7 @@ h3 { margin-bottom: .45rem; font-size: 1.1rem; }
 .resume-role-meta, .resume-role-date { margin-bottom: 0; color: var(--muted); font-size: .92rem; }
 .resume-role ul { margin: 1.15rem 0 0; padding-left: 1.25rem; color: var(--muted); }
 .resume-role li + li { margin-top: .65rem; }
-.resume-skills-grid { grid-template-columns: repeat(2, 1fr); }
-.resume-skills-grid article:nth-child(odd) { padding-left: 0; border-left: 0; }
-.resume-skills-grid article:nth-child(even) { padding-left: 1.5rem; border-left: 1px solid var(--line); }
+.resume-skills-grid { grid-template-columns: repeat(3, 1fr); }
 .resume-skills-grid h3 { margin: 0 0 .45rem; color: var(--ink); font-family: inherit; font-size: 1.05rem; }
 .resume-skills-grid p { margin: 0; color: var(--muted); }
 .timeline-section + .timeline-section { margin-top: clamp(4rem, 8vw, 6rem); }
