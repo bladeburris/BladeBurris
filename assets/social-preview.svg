@@ -1,17 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#397ea2" opacity=".55"/></pattern>
-    <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#0f141b"/><stop offset="1" stop-color="#0f141b" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.8" fill="#fcee0a" opacity=".58"/></pattern>
+    <linearGradient id="shade" x1="0" x2="1"><stop stop-color="#10110e"/><stop offset="1" stop-color="#10110e" stop-opacity="0"/></linearGradient>
   </defs>
-  <rect width="1200" height="630" fill="#0f141b"/>
-  <rect x="650" width="550" height="630" fill="url(#dots)"/>
-  <rect x="500" width="320" height="630" fill="url(#fade)"/>
-  <rect x="72" y="72" width="70" height="6" rx="3" fill="#6ed7cc"/>
-  <text x="72" y="150" fill="#6ed7cc" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">PORTFOLIO</text>
-  <text x="68" y="315" fill="#eff4f8" font-family="Georgia,serif" font-size="92" font-weight="700" letter-spacing="-4">Blade Burris</text>
-  <circle cx="626" cy="296" r="9" fill="#6ed7cc"/>
-  <text x="74" y="385" fill="#aab6c3" font-family="Arial,sans-serif" font-size="29">IT service design · UX · Human-centered systems</text>
-  <line x1="74" y1="500" x2="1126" y2="500" stroke="#2c3846" stroke-width="2"/>
-  <text x="74" y="550" fill="#eff4f8" font-family="Arial,sans-serif" font-size="20" font-weight="600">BETTERWITHBLADE.COM</text>
-  <text x="1060" y="558" fill="#6ed7cc" font-family="Georgia,serif" font-size="55" font-weight="700">BB.</text>
+  <rect width="1200" height="630" fill="#10110e"/>
+  <path d="M0 0h1200v16H0z" fill="#fcee0a"/>
+  <rect x="690" y="16" width="510" height="614" fill="url(#grid)"/>
+  <rect x="540" y="16" width="310" height="614" fill="url(#shade)"/>
+  <path d="M780 0h420v16H780z" fill="#ff2a6d" opacity=".9"/>
+  <rect x="850" y="168" width="286" height="286" fill="#ff2a6d"/>
+  <image href="pfp.png" x="832" y="150" width="286" height="286" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="832" y="150" width="286" height="286" fill="none" stroke="#fcee0a" stroke-width="4"/>
+  <path d="M832 472h286" stroke="#fcee0a" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="72" y="278" fill="#ff2a6d" font-family="Impact,Haettenschweiler,Arial,sans-serif" font-size="112" font-weight="900" letter-spacing="-3">BLADE BURRIS</text>
+  <text x="78" y="358" fill="#f6f1d6" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="2">IT SERVICE DESIGNER</text>
+  <text x="78" y="415" fill="#aaa58c" font-family="Arial,sans-serif" font-size="25">IT service design · UX · Human-centered systems</text>
+  <path d="M78 500h1044" stroke="#454638" stroke-width="2"/>
+  <text x="1012" y="574" fill="#fcee0a" font-family="Impact,Haettenschweiler,Arial,sans-serif" font-size="64" font-weight="900" letter-spacing="-4">BB.</text>
 </svg>
