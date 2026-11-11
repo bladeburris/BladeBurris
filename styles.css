@@ -44,10 +44,36 @@ h3 { margin-bottom: .45rem; font-size: 1.1rem; }
 .stats-grid strong { display: block; margin-bottom: 2.25rem; color: var(--accent); font-family: Georgia, serif; font-size: 1.25rem; }
 .stats-grid span { display: block; margin-bottom: .45rem; font-weight: 800; }
 .stats-grid p { max-width: 220px; margin-bottom: 0; color: var(--muted); font-size: .92rem; }
+.certifications { padding-block: clamp(4rem, 9vw, 7rem); border-top: 2px solid var(--accent); border-bottom: 1px solid var(--line); background: linear-gradient(115deg, #203943, #172630 68%, #1b2934); }
+.certification-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); }
+.certification-grid article { padding: 1.6rem 1.5rem 1.4rem 0; border-bottom: 1px solid var(--line); }
+.certification-grid article + article { padding-left: 1.5rem; border-left: 1px solid var(--line); }
+.certification-grid h3 { margin: 0 0 .45rem; }
+.certification-grid p { margin: 0; color: var(--muted); font-size: .92rem; }
 .page-content, .contact-page { position: relative; isolation: isolate; overflow: hidden; padding-block: clamp(4.5rem, 10vw, 8rem); }
 .page-content::before, .contact-page::before { position: absolute; z-index: -1; top: 0; right: -5%; width: min(46vw, 36rem); height: 100%; color: #397ea2; content: ""; opacity: .32; pointer-events: none; background-image: radial-gradient(circle, currentColor 1.3px, transparent 1.7px); background-size: 20px 20px; -webkit-mask-image: linear-gradient(90deg, transparent, black 36%, black 68%, transparent); mask-image: linear-gradient(90deg, transparent, black 36%, black 68%, transparent); animation: dot-wave 13s ease-in-out infinite alternate-reverse; }
 .page-content > *, .contact-page > * { position: relative; z-index: 1; }
 .page-intro { max-width: 600px; margin-bottom: clamp(4rem, 8vw, 6.5rem); color: var(--muted); font-size: 1.15rem; }
+.resume-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 2rem; margin-bottom: 2rem; }
+.resume-header h1 { margin-bottom: 0; }
+.resume-contact { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; padding-block: 1rem; border-block: 1px solid var(--line); color: var(--muted); font-size: .92rem; }
+.resume-contact a:hover { color: var(--accent); }
+.resume-contact span { flex-basis: 100%; }
+.resume-section + .resume-section { margin-top: clamp(3rem, 6vw, 4.5rem); }
+.resume-section > h2 { margin-bottom: 1.25rem; font-size: clamp(1.9rem, 3.5vw, 2.75rem); }
+.resume-section .timeline-heading h2 { margin: 0; }
+.resume-section > p { max-width: 900px; color: var(--muted); }
+.resume-role + .resume-role { margin-top: 2.5rem; }
+.resume-role-header { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; }
+.resume-role-header h3 { margin-bottom: .25rem; }
+.resume-role-meta, .resume-role-date { margin-bottom: 0; color: var(--muted); font-size: .92rem; }
+.resume-role ul { margin: 1.15rem 0 0; padding-left: 1.25rem; color: var(--muted); }
+.resume-role li + li { margin-top: .65rem; }
+.resume-skills-grid { grid-template-columns: repeat(2, 1fr); }
+.resume-skills-grid article:nth-child(odd) { padding-left: 0; border-left: 0; }
+.resume-skills-grid article:nth-child(even) { padding-left: 1.5rem; border-left: 1px solid var(--line); }
+.resume-skills-grid h3 { margin: 0 0 .45rem; color: var(--ink); font-family: inherit; font-size: 1.05rem; }
+.resume-skills-grid p { margin: 0; color: var(--muted); }
 .timeline-section + .timeline-section { margin-top: clamp(4rem, 8vw, 6rem); }
 .timeline-heading { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
 .timeline-section h2 { margin: 0; font-size: clamp(1.9rem, 3.5vw, 2.75rem); }
@@ -97,6 +123,13 @@ h3 { margin-bottom: .45rem; font-size: 1.1rem; }
   .stats-grid { grid-template-columns: 1fr; }
   .stats-grid article, .stats-grid article + article { min-height: auto; padding: 1.4rem 0; border-left: 0; }
   .stats-grid strong { margin-bottom: .75rem; }
+  .certification-grid { grid-template-columns: 1fr; }
+  .certification-grid article, .certification-grid article + article { padding: 1.4rem 0; border-left: 0; }
+  .resume-header { align-items: flex-start; flex-direction: column; gap: 1.5rem; }
+  .resume-contact { gap: .5rem 1rem; }
+  .resume-role-header { align-items: flex-start; flex-direction: column; gap: .3rem; }
+  .resume-skills-grid { grid-template-columns: 1fr; }
+  .resume-skills-grid article:nth-child(n) { padding: 1.4rem 0; border-left: 0; }
   .timeline li { grid-template-columns: 1fr; gap: .4rem; }
   .organization-logo { height: 2.4rem; max-width: 7rem; }
   .indiana-logo { height: 2.1rem; }
